@@ -59,3 +59,11 @@ tidy.df <-
 write.table(tidy.df, file = "analysis_results.txt", row.names = FALSE)
 
 #write.table(names(results.df), file = "README.txt", row.names = FALSE)
+
+#CodeBook.md
+#distinct(tidy.df,subject)$Descriptive_Activity_Name
+#colnames(tidy.df)
+
+
+
+
